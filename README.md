@@ -41,6 +41,8 @@ The table shows that for all pitches that are Balls, the model will correctly pr
 
 For further details on the model performance please refer to the model card.
 
+## Limitations
+
 There are several limitations of the model including:  
 
 - The model only looks at the 2024 season therefore it is unknown how the model would perform for past or future data. 
