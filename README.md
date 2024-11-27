@@ -68,7 +68,7 @@ The github repo includes the following data:
 
 - Batting statistics with PCA (batstats24_withPCA.csv) - as above. 
 
-- Pitch by pitch data (pitchbypitch24_cleaned.csv) - this is the cleaned dataset used in the modelling. It includes the seasonal statistics and principal components outputted from the PCA. Raw data is not included however instructions on how to download it and all cleaning/processes code is included in the “importing and cleaning” notebook. 
+Pitch by pitch data is not included in this repo as the file size is too large. The 'importing_cleaning' notebook contains all code to download and clean it.
 
  
 
@@ -86,7 +86,7 @@ All code is documented in Jupyter notebooks. There are four notebooks in total:
 
 #### How to use them  
 
-The notebooks are designed to be run sequentially in the above order. However the final notebook can be run as a standalone as the processed data is included on the repo.  
+The notebooks are designed to be run sequentially in the above order. Data outputs for Batting PCA and Pitching PCA are included in this repo and do not need to be re-run. The importing and cleaning notebook includes code to download data and clean it to enable use in the modelling notebook. 
 
 ## Future research
 
