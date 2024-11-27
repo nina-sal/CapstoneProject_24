@@ -14,7 +14,7 @@ The purpose of the dataset is to track and collect statistics from Major League 
 
 ### Pitch-level Statistics
 - The dataset comprises all pitches from the 2024 MLB season.
-- Metrics include pitch velocity, acceleration, position, etc. For further details, refer to Statcast’s glossary: [Statcast Glossary](https://baseballsavant.mlb.com/csv-docs).
+- Metrics include pitch velocity, acceleration, position, etc. For further details of all variables included, refer to Statcast’s glossary: [Statcast Glossary](https://baseballsavant.mlb.com/csv-docs).
 - Before cleaning: 721,611 instances.
 - After cleaning: 555,594 instances (see the cleaning section for details).
 - Less than 0.5% of the data had missing values (not including deprecated statistics). These rows were removed.
@@ -30,8 +30,9 @@ The purpose of the dataset is to track and collect statistics from Major League 
 ---
 
 ## Collection Process
+Data is collected by Statcast, MLB's official statistics provided. 
 
-- **Pitch-level data**: Collected using the `pybaseball` package.
+- **Pitch-level data**: obtained using the `pybaseball` package.
 - **Batter- and pitcher-level data**: Downloaded directly from [Baseball Savant](https://baseballsavant.mlb.com/) leaderboard selecting the following custom metrics:
   - `k_percent` - strikeout percentage.
   - `bb_percent` - walk percentage.
