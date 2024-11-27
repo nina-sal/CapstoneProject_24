@@ -105,8 +105,8 @@ The data can be used for various pitch-level analyses, though users should note 
 ## Distribution
 - The data is freely available for download and use.
 - Raw seasonal statistics are available on [Baseball Savant](https://baseballsavant.mlb.com/).
-- Raw pitch data is not included, but is available from the  `pybaseball` package. Code for downloading and cleaning is provided.
-- This repo includes the processed pitch-level and seasonal data
+- Raw pitch is available from the  `pybaseball` package. Code for downloading and cleaning is provided.
+
 
 ---
 
