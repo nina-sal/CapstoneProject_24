@@ -88,10 +88,11 @@ The final model showed an overall accuracy of 55%,  with the following sensitivi
  The following plots illustrate the model's performance:
 
 #### Figure 1: Confusion matrix of final model
-(Confusion matrix showing the count of predicted vs actual classes.)
+the numbers represent a count of pitches belonging to that class
+![Example Image](Images/Confusionmatrix.png)
 
 #### Figure 2: Violin plots of prediction probability by predicted class
-(Shows distribution of probabilities for each predicted class.)
+![Example Image](Images/Violinplot.png)
 
 ### Performance Summary:
 
