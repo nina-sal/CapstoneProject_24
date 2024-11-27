@@ -39,8 +39,7 @@ The final model is able to predict pitch outcomes at a 55% success rate. The mod
 
 The table shows that for all pitches that are Balls, the model will correctly predict a ball 78% of the time. The poorest performance is for weak contact: for all the pitches that were hit weakly, the model will correctly predict this 32% of the time.  
 
-
-## Limitations  
+For further details on the model performance please refer to the model card.
 
 There are several limitations of the model including:  
 
